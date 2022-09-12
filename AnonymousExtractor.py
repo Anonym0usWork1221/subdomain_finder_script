@@ -232,7 +232,7 @@ class Subdomains:
                 sys.exit(1)
             output = str(input("[*] Enter File Name to save: "))
             print("\n")
-           print("Please Wait: Gethering Info")
+            print("Please Wait: Gethering Info")
             print("\n\n")
             for t in domains:
                 target = parse_url(t)
